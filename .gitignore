@@ -1,0 +1,62 @@
+/target
+/dist
+
+# Rust build output and leftovers
+target/
+**/*.rs.bk
+*.pdb
+
+# Compiled binaries and archives
+*.exe
+*.dll
+*.lib
+*.a
+*.o
+*.obj
+*.res
+*.msi
+*.zip
+*.7z
+*.tar.gz
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# More native build leftovers
+*.so
+*.dylib
+*.exp
+*.ilk
+
+# Profiling, coverage and logs
+*.profraw
+*.profdata
+*.log
+
+# More keys and credentials
+id_dsa*
+id_ecdsa*
+*.ppk
+.netrc
+
+# Claude Code personal settings
+.claude/settings.local.json
